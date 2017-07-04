@@ -1,0 +1,13 @@
+{
+  "name": "fanc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "author": "@rigidrabbit",
+  "bugs": {
+    "url": "https://github.com/rigidrabbit/fanc/issues"
+  },
+  "description": "fanc is a javascript library including some useful tiny functions.",
+  "scripts": {}
+}
