@@ -5,7 +5,7 @@
 module.exports = function toreal(n, errval) {
   if (n != null) {
     if (typeof n !== 'number') {
-      n = parseFloat(n)
+      n = parseFloat(n);
     }
     if (isFinite(n)) {
       return n;

@@ -5,9 +5,9 @@
 var randstr = require('./randstr');
 
 var ALNUM =
-      'abcdefghijklmnopqrstuvwxyz' +
-      'ABCDEFGHIJKLMNOPQRSTUVWXZY' +
-      '1234567890';
+  'abcdefghijklmnopqrstuvwxyz' +
+  'ABCDEFGHIJKLMNOPQRSTUVWXZY' +
+  '1234567890';
 
 module.exports = function randalnum(len) {
   return randstr(len, ALNUM);

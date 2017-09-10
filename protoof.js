@@ -15,7 +15,7 @@ if (typeof Object.getPrototypeOf === 'function') {
     } else {
       return null;
     }
-  }
+  };
 }
 
 module.exports = function protoof(o) {

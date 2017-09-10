@@ -8,6 +8,7 @@ module.exports.chop = require('./chop');
 module.exports.clamp = require('./clamp');
 module.exports.delay = require('./delay');
 module.exports.derive = require('./derive');
+module.exports.escape = require('./escape');
 module.exports.index = require('./index');
 module.exports.isint = require('./isint');
 module.exports.isint32 = require('./isint32');

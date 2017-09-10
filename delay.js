@@ -46,7 +46,7 @@ module.exports = function delay(millis, cbfunc, thiz) {
       canceller(id);
       id = null;
       return true;
-    }
+    };
   } else {
     id = setTimeout(wrapper, millis);
     return function () {
@@ -56,6 +56,6 @@ module.exports = function delay(millis, cbfunc, thiz) {
       clearTimeout(id);
       id = null;
       return true;
-    }
+    };
   }
 };
