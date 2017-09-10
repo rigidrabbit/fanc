@@ -2,7 +2,7 @@
 fanc is a javascript library including some useful tiny functions.
 
 ## Install
-fanc can be installed vi npm, like:
+fanc can be installed via npm, like:
 
 	npm install -S fanc
 
