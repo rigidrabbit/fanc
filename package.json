@@ -9,5 +9,8 @@
     "url": "https://github.com/rigidrabbit/fanc/issues"
   },
   "description": "fanc is a javascript library including some useful tiny functions.",
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {
+    "jest": "^21.0.2"
+  }
 }
